@@ -25,7 +25,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling
+# Custom CSS for better styling with improved contrast
 st.markdown("""
     <style>
     .main-header {
@@ -38,20 +38,42 @@ st.markdown("""
     .sub-header {
         font-size: 1.2rem;
         text-align: center;
-        color: #666;
+        color: #333333;
         margin-bottom: 2rem;
     }
     .recommendation-card {
         padding: 1.5rem;
         border-radius: 10px;
-        background-color: #f0f2f6;
+        background-color: #ffffff;
         margin-bottom: 1rem;
         border-left: 4px solid #1E88E5;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .recommendation-card h3 {
+        color: #1E88E5;
+        margin-bottom: 0.5rem;
+    }
+    .recommendation-card p {
+        color: #333333;
+        line-height: 1.6;
+    }
+    .recommendation-card strong {
+        color: #000000;
+    }
+    .recommendation-card a {
+        color: #1E88E5;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .recommendation-card a:hover {
+        color: #0D47A1;
+        text-decoration: underline;
     }
     .match-score {
         font-size: 1.5rem;
         font-weight: bold;
         color: #4CAF50;
+    }
     }
     </style>
 """, unsafe_allow_html=True)
