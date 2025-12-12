@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#1E88E5" opacity="0.2"/>
+  
+  <!-- Main Character Head -->
+  <circle cx="100" cy="80" r="40" fill="#FFD54F"/>
+  
+  <!-- Eyes -->
+  <circle cx="88" cy="75" r="5" fill="#333"/>
+  <circle cx="112" cy="75" r="5" fill="#333"/>
+  
+  <!-- Smile -->
+  <path d="M 85 90 Q 100 100 115 90" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <rect x="75" y="120" width="50" height="60" rx="10" fill="#4CAF50"/>
+  
+  <!-- Arms -->
+  <rect x="50" y="130" width="25" height="12" rx="6" fill="#FFD54F"/>
+  <rect x="125" y="130" width="25" height="12" rx="6" fill="#FFD54F"/>
+  
+  <!-- Target/Goal Symbol -->
+  <circle cx="100" cy="40" r="15" fill="none" stroke="#FF5722" stroke-width="3"/>
+  <circle cx="100" cy="40" r="8" fill="none" stroke="#FF5722" stroke-width="2"/>
+  <circle cx="100" cy="40" r="3" fill="#FF5722"/>
+  
+  <!-- Text -->
+  <text x="100" y="195" font-family="Arial, sans-serif" font-size="14" fill="#1E88E5" text-anchor="middle" font-weight="bold">Future Self!</text>
+</svg>
